@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(239, 155, 155);
+}
 .header{
     background-color: rgb(237, 180, 164);
     padding: 10px;
@@ -11,6 +15,7 @@
 .header{
     margin: 20px;
 } 
+
 nav{
     display: flex;
     flex-direction: row;
@@ -23,5 +28,32 @@ nav{
     border: none;
     border: 1px solid rgb(240, 154, 17);
 }
+
+.btnb{
+    box-shadow: 0.7px 0.9px 17px 1px rgb(240, 163, 8);
+}
+.btnb{
+    display: flex;
+    width: 100vh;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 30%;
+}
+
+.btnb{
+    padding: 20px;
+    border: none;
+    border: 1px solid grey;
+    background-color: rgba(208, 200, 50, 0.6);
+    border-radius: 10px;
+}
+
+.header nav .btn, .btnb{
+    cursor: pointer;
+}
+/* margin,padding,color,bg color,box shadow*/
+/* display,pointer,justify content,allign,*/
+
 
 
